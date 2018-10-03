@@ -1612,31 +1612,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* menu is open
- * ----------------------------------------------- */
-.menu-is-open .header-nav {
-    -webkit-transform: translateX(0);
-    -ms-transform: translateX(0);
-    transform: translateX(0);
-    visibility: visible;
-    -webkit-overflow-scrolling: touch;
-}
-
-.menu-is-open .header-nav .header-nav__content {
-    opacity: 1;
-    visibility: visible;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.5s;
-    transition-duration: 0.5s;
-    -webkit-transition-timing-function: ease-in-out;
-    transition-timing-function: ease-in-out;
-    -webkit-transition-delay: 0.3s;
-    transition-delay: 0.3s;
-    left: 0;
-}
-
-
 /* ------------------------------------------------------------------- 
  * ## mobile menu toggle 
  * ------------------------------------------------------------------- */
@@ -1651,7 +1626,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #000;
+    color: #fff;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1712,10 +1687,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 
-/* ------------------------------------------------------------------- 
- * responsive:
- * header
- * ------------------------------------------------------------------- */
 @media only screen and (max-width: 600px) {
     .s-header {
         height: 90px;
