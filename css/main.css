@@ -1216,24 +1216,24 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 7.8rem;
     line-height: 1.25;
-    color: #000000;
+    color: #111111;
     margin-top: 0;
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: #111111;
 }
 
 .display-2 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 5.2rem;
     line-height: 1.255;
-    color: #000000;
+    color: #111111;
     margin-top: 0;
 }
 
 .display-2--light {
-    color: #FFFFFF;
+    color: #111111;
 }
 
 .subhead + .display-2 {
@@ -1246,13 +1246,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #000;
+    color: #111111;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #111111;
 }
 
 
@@ -1725,19 +1725,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: table;
 }
 
-.s-home .shadow-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .4;
-    background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
-
 .s-home .overlay {
     position: absolute;
     top: 0;
@@ -1745,7 +1732,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 100%;
     height: 100%;
     opacity: .6;
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .no-js .s-home {
@@ -1769,7 +1756,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.6rem;
-    color: rgba(255, 255, 255, 0.5);
+    color : #111111;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -1783,7 +1770,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 6.3rem;
     line-height: 1.333;
     margin-top: 0;
-    color: #FFFFFF;
+    color: #111111;
 }
 
 .home-content__main {
@@ -1798,8 +1785,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn {
     width: 215px;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    border-color: #111111;
+    color: #111111;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1813,7 +1800,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
     background: #FFFFFF !important;
-    color: #000000;
+    color: #111111;
 }
 
 .home-content__scroll {
@@ -1827,7 +1814,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #FFFFFF;
+    color: #111111;
     position: relative;
     display: inline-block;
     line-height: 3rem;
@@ -1860,7 +1847,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: block;
     width: 2px;
     height: 10.2rem;
-    background-color: #000;
+    background-color: #ffffff;
     position: absolute;
     right: 7.2rem;
     bottom: 0;
@@ -1915,12 +1902,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 33px;
     height: 33px;
     line-height: calc(33px - 4px);
-    border: 2px solid #FFFFFF;
+    border: 2px solid #111111;
     border-radius: 50%;
 }
 
 .home-social span {
-    color: #000;
+    color: #111111;
     right: 4.5rem;
     font-size: 1.3rem;
     opacity: 0;
@@ -2176,8 +2163,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #000;
-    color: #010507;
+    background-color: #ffffff;
     position: relative;
 }
 
@@ -2908,13 +2894,13 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-contact {
-    background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-color: #ffffff;
+
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
     position: relative;
 }
 
@@ -2925,7 +2911,7 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .8;
-    background-color: #151515;
+    background-color: #ffffff;
 }
 
 .s-contact .form-field {
@@ -2964,21 +2950,10 @@ html.no-csstransitions .home-content__main {
     border-right: 5px solid #000;
 }
 
-.contact__line {
-    display: block;
-    width: 2px;
-    height: 20.4rem;
-    background-color: #000;
-    position: absolute;
-    left: 50%;
-    top: -10.2rem;
-    margin-left: -1px;
-}
-
 .contact-content {
     max-width: 1000px;
-    background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    background-color: #111111;
+
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -2995,7 +2970,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content h5 {
     margin-top: 0;
-    color: #000;
+    color: #ffffff;
 }
 
 .contact-content input[type="email"],
@@ -3007,7 +2982,7 @@ html.no-csstransitions .home-content__main {
 .contact-content input[type="password"],
 .contact-content textarea,
 .contact-content select {
-    color: rgba(255, 255, 255, 0.6);
+    color: #ffffff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
     margin-bottom: .9rem;
 }
@@ -3022,7 +2997,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #ffffff;
 }
 
 .contact-content button,
@@ -3032,31 +3007,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: #ffffff;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: #ffffff; /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: #ffffff; /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: #ffffff;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: #ffffff !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3312,7 +3287,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    
 }
 
 footer h4 {
