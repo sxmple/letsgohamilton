@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #000;
-    border-color: #000;
+    background: #bdbdbd;
+    border-color: #fff;
     color: #FFFFFF;
 }
 
@@ -2952,7 +2952,7 @@ html.no-csstransitions .home-content__main {
 
 .contact-content {
     max-width: 1000px;
-    background-color: #111111;
+    background-color: #bdbdbd;
 
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -3058,7 +3058,7 @@ html.no-csstransitions .home-content__main {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #121212;
+    background-color: #a9a9a9;
 }
 
 .contact-secondary .contact-info {
