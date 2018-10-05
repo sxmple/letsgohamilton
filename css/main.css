@@ -30,12 +30,12 @@ Domain Path:      /languages/
 /* ==========================================================================
    IMPORT GOOGLE FONTS
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Poppins");
 /* ==========================================================================
    GENERAL
    ========================================================================== */
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #a0a6ad;
   font-size: 14px;
   font-weight: 400;
@@ -51,7 +51,7 @@ p {
   font-size: 14px;
   color: #a0a6ad;
   line-height: 26px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Poppins', sans-serif;
   margin-bottom: 0;
 }
 
@@ -106,7 +106,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 /* ==========================================================================
-   Section Title
+   
+Section Title
    ========================================================================== */
 .section {
   padding: 80px 0 65px;
