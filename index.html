@@ -416,37 +416,36 @@
                     <p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Contact</p>
                     <h2 class="section-title">We would love to hear from you!</h2>
                   </div>
-                  <form id="contactForm">
+                  <form name="contact" method="POST" netlify>
                     <div class="row">
                       <div class="col-md-6">
                         <div class="form-group">
-                          <form name="contact" method="POST" netlify>
-                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                          <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name"> </label>
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form-group">
-                          <input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
+                          <input type="text" placeholder="Email" id="email" class="form-control" name="name" required data-error="Please enter your email"> </label>
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject">
+                          <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required="" data-error="Please enter your subject"> </label>
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea class="form-control" id="message" placeholder="Message" rows="7" data-error="Write your message" required></textarea>
+                          <textarea class="form-control" id="message" placeholder="Message" rows="7" data-error="Write your message" required></textarea> </label>
                           <div class="help-block with-errors"></div>
                         </div>
                         <div class="submit-button">
                           <button class="btn btn-common btn-effect" id="submit" type="submit">Submit</button>
                           <div id="msgSubmit" class="h3 hidden"></div>
                           <div class="clearfix"></div>
-                        <contactForm>
+                        </form>
                         </div>
                       </div>
                     </div>
