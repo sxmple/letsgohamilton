@@ -1,1 +1,1 @@
-https://ci.appveyor.com/api/github/webhook?id=wylwpff4gfsaqcej
+[![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
