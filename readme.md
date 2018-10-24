@@ -1,1 +1,1 @@
-[![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
+[![Build status](https://ci.appveyor.com/api/projects/status/0rew0w82fteoa3l8?svg=true)](https://ci.appveyor.com/project/sxmple/letsgohamilton)
