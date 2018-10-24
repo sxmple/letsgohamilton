@@ -1,1 +1,1 @@
-[![Build Status](https://github.com/sxmple}/{letsgohamilton}.png?branch=master)](https://github.com/{sxmple}/{letsgohamilton})
+[![Build Status](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME}.png?branch=master)](https://travis-ci.org/{ORG-or-USERNAME}/{REPO-NAME})
