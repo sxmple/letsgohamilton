@@ -1,1 +1,1 @@
-https://ci.appveyor.com/project/sxmple/letsgohamilton
+https://ci.appveyor.com/api/github/webhook?id=wylwpff4gfsaqcej
